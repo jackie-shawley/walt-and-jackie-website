@@ -1,23 +1,14 @@
-import logo from './logo.svg';
+/* eslint-disable jsx-a11y/iframe-has-title */
+import React from 'react';
 import './App.css';
+import HomePage from './components/HomePageComponent';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 style={{ color: 'white' }}>this is app</h1>
+      <p style={{ color: 'white' }}>what is really happening here</p>
+      <HomePage />
     </div>
   );
 }
