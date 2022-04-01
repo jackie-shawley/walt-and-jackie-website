@@ -2,6 +2,7 @@
 import React from 'react';
 import './App.css';
 import HomePage from './components/HomePageComponent';
+import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
   return (
