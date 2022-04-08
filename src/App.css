@@ -3,22 +3,47 @@
   background-color: black;
 }
 
+/* Navigation */
+  .navbar {
+    background-color: black;
+    color: #A3956D
+  }
+  .nav-link {
+    font-family: 'Dosis';
+    font-variant: small-caps;
+    font-size: 2rem;
+
+  }
+
+  .nav-link:active {
+    color: #A3956D
+  }
+
+  .nav-link:hover {
+    color: #fee7aa
+  }
+
+  .nav-container {
+    justify-content: center;
+  }
+
 /* HomePage */
-.home-page {
-  background-color: black;
-}
+  .home-page {
+    background-color: black;
+  }
 
 /* Carousel */
-.carousel-img {
-  height: 500px;
-  width: 900px;
-  object-fit: cover;
-}
+  .carousel-img {
+    height: 500px;
+    width: 900px;
+    object-fit: cover;
+  }
 
-.carousel {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
+  .carousel {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
 
 /* Show Page */
 .show-page {
