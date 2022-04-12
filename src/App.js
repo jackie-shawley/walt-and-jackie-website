@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
 import React, { useEffect } from 'react';
 import './App.css';
-import HomePage from './components/HomePageComponent';
+import HomePage from './components/home/HomePageComponent';
 import WebFont from 'webfontloader';
 import 'bootstrap/dist/css/bootstrap.css';
 import Header from './components/HeaderComponent';
