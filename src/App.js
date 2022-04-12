@@ -2,16 +2,17 @@
 import React, { useEffect } from 'react';
 import './App.css';
 import HomePage from './components/HomePageComponent';
-import NavBar from './components/NavBarComponent';
 import WebFont from 'webfontloader';
 import 'bootstrap/dist/css/bootstrap.css';
+import Header from './components/HeaderComponent';
+import Footer from './components/FooterComponent';
 
 function App() {
 
   useEffect(() => {
     WebFont.load({
       google: {
-        families: ['Fredericka the Great', 'Dosis']
+        families: ['Fredericka the Great', 'Dosis', 'Playfair Display']
       }
     });
   }, []);
@@ -19,8 +20,9 @@ function App() {
   return (
     <div className="App">
       {/* <h1 style={{ fontFamily: 'Fredericka the Great', fontSize: '2rem', color: 'white'}}>This is app</h1> */}
-      <NavBar />
+      <Header />
       <HomePage />
+      <Footer />
     </div>
   );
 }

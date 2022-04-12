@@ -3,6 +3,13 @@
   background-color: black;
 }
 
+a.footer-link:link {
+  color: '#A3956D';
+  text-decoration: none;
+}
+
+
+
 /* Navigation */
   .navbar {
     background-color: black;
@@ -44,6 +51,14 @@
     margin-bottom: 20px;
   }
 
+  /* Footer */
+  .footer-text {
+    margin-top: 20;
+    align-items: 'right';
+    font-family: 'Playfair Display';
+    color: '#A3956D';
+    font-size: 1rem;
+  }
 
 /* Show Page */
 .show-page {
