@@ -5,7 +5,7 @@ export default function HomeCarousel() {
     return(
         <div className='carousel'>
             <Carousel fade>
-                <Carousel.Item>
+                <Carousel.Item interval={3000}>
                     <img
                         className='carousel-img'
                         src='/images/carousel photos/Walt-and-Jackie-standing-back-to-back.png'
@@ -16,7 +16,7 @@ export default function HomeCarousel() {
                         <p>Photo taken by Scott Miller Photography at Cambria Iron Company, Blacksmith Shop</p>  
                     </Carousel.Caption> */}
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item interval={3000}>
                     <img
                         className='carousel-img'
                         src='/images/carousel photos/PPAC-xmas-show-silent-night-2016.jpeg'
@@ -27,7 +27,7 @@ export default function HomeCarousel() {
                         <p>Walt &amp; Jackie are joined by Denise Baldwin and Sam Coco in an a capella rendition of 'Silent Night'</p>  
                     </Carousel.Caption> */}
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item interval={3000}>
                     <img
                         className='carousel-img'
                         src='/images/carousel photos/CD release party picture.jpeg'
@@ -38,7 +38,7 @@ export default function HomeCarousel() {
                         <p>Walt &amp; Jackie are joined by Denise Baldwin and Sam Coco in an a capella rendition of 'Silent Night'</p>  
                     </Carousel.Caption> */}
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item interval={3000}>
                     <img
                         className='carousel-img'
                         src='/images/carousel photos/eric-beag-pushup-ppac-2019.jpeg'
@@ -49,7 +49,7 @@ export default function HomeCarousel() {
                         <p>Walt &amp; Jackie are joined by Denise Baldwin and Sam Coco in an a capella rendition of 'Silent Night'</p>  
                     </Carousel.Caption> */}
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item interval={3000}>
                     <img
                         className='carousel-img'
                         src='/images/carousel photos/bongo-pic-summerhill.jpeg'
@@ -60,7 +60,7 @@ export default function HomeCarousel() {
                         <p>Walt &amp; Jackie are joined by Denise Baldwin and Sam Coco in an a capella rendition of 'Silent Night'</p>  
                     </Carousel.Caption> */}
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item interval={3000}>
                     <img
                         className='carousel-img'
                         src='/images/carousel photos/walt-ebensburg-gazebo.jpeg'
@@ -71,7 +71,7 @@ export default function HomeCarousel() {
                         <p>Walt &amp; Jackie are joined by Denise Baldwin and Sam Coco in an a capella rendition of 'Silent Night'</p>  
                     </Carousel.Caption> */}
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item interval={3000}>
                     <img
                         className='carousel-img'
                         src='/images/carousel photos/flood-city-music-fest.jpeg'
@@ -82,7 +82,7 @@ export default function HomeCarousel() {
                         <p>Walt &amp; Jackie are joined by Denise Baldwin and Sam Coco in an a capella rendition of 'Silent Night'</p>  
                     </Carousel.Caption> */}
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item interval={3000}>
                     <img
                         className='carousel-img'
                         src='/images/carousel photos/library-window-w-and-j.jpeg'
@@ -93,7 +93,7 @@ export default function HomeCarousel() {
                         <p>Walt &amp; Jackie are joined by Denise Baldwin and Sam Coco in an a capella rendition of 'Silent Night'</p>  
                     </Carousel.Caption> */}
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item interval={3000}>
                     <img
                         className='carousel-img'
                         src='/images/carousel photos/jackie-guitar-ppac-2019.jpeg'
@@ -104,7 +104,7 @@ export default function HomeCarousel() {
                         <p>Walt &amp; Jackie are joined by Denise Baldwin and Sam Coco in an a capella rendition of 'Silent Night'</p>  
                     </Carousel.Caption> */}
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item interval={3000}>
                     <img
                         className='carousel-img'
                         src='/images/carousel photos/blowing-snow-promo-photo.jpeg'
@@ -115,8 +115,7 @@ export default function HomeCarousel() {
                         <p>Walt &amp; Jackie are joined by Denise Baldwin and Sam Coco in an a capella rendition of 'Silent Night'</p>  
                     </Carousel.Caption> */}
                 </Carousel.Item>
-                
-                <Carousel.Item>
+                <Carousel.Item interval={3000}>
                     <img
                         className='carousel-img'
                         src='/images/carousel photos/legends-whole-stage.jpeg'
@@ -127,7 +126,7 @@ export default function HomeCarousel() {
                         <p>Walt &amp; Jackie are joined by Denise Baldwin and Sam Coco in an a capella rendition of 'Silent Night'</p>  
                     </Carousel.Caption> */}
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item interval={3000}>
                     <img
                         className='carousel-img'
                         src='/images/carousel photos/Walt and Jackie Jim Price sketch 052119.jpeg'
@@ -138,7 +137,7 @@ export default function HomeCarousel() {
                         <p>Walt &amp; Jackie are joined by Denise Baldwin and Sam Coco in an a capella rendition of 'Silent Night'</p>  
                     </Carousel.Caption> */}
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item interval={3000}>
                     <img
                         className='carousel-img'
                         src='/images/carousel photos/walt-jack-singing-ppac-2019.png'
@@ -149,7 +148,7 @@ export default function HomeCarousel() {
                         <p>Walt &amp; Jackie are joined by Denise Baldwin and Sam Coco in an a capella rendition of 'Silent Night'</p>  
                     </Carousel.Caption> */}
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item interval={3000}>
                     <img
                         className='carousel-img'
                         src='/images/carousel photos/xmas-grande-hall.jpeg'

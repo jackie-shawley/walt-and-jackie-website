@@ -12,7 +12,7 @@ function App() {
   useEffect(() => {
     WebFont.load({
       google: {
-        families: ['Fredericka the Great', 'Dosis', 'Playfair Display']
+        families: ['Fredericka the Great', 'Dosis', 'Playfair Display', 'Montserrat']
       }
     });
   }, []);

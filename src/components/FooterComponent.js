@@ -10,7 +10,7 @@ function Footer() {
                 <Row style={{ justifyContent: 'center'}}>
                     <Col xs='auto' style={{ marginTop: 20, alignItems: 'right', fontFamily: 'Playfair Display', fontSize: '1.5rem', color: '#A3956D' }}>
                         {/* <p style={{ marginTop: 20, alignItems: 'right', fontFamily: 'Playfair Display', fontSize: '1.5rem', color: '#A3956D' }}>musicians: johnstown, pa</p> */}
-                        <a className='footer-link' href="mailto:waltandjackie@gmail.com">waltandjackie@gmail.com</a>
+                        <a className='footer-link' style={{ color: '#A3956D'}} href="mailto:waltandjackie@gmail.com">waltandjackie@gmail.com</a>
                     </Col>
                     <Col xs='auto' style={{ alignItems: 'center', justifyContent: 'center' }}>
                         <SocialIcon url= 'https://www.facebook.com/waltandjackie' style={{ margin: 9 }}/>

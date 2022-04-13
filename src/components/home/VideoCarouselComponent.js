@@ -8,7 +8,7 @@ function VideoCarousel() {
         superLargeDesktop: {
           // the naming can be any, depends on you.
           breakpoint: { max: 4000, min: 3000 },
-          items: 5
+          items: 4
         },
         desktop: {
           breakpoint: { max: 3000, min: 1024 },
@@ -25,45 +25,45 @@ function VideoCarousel() {
       };
 
     return ( 
-        <div className='carousel'>
+        <div>
             <Carousel responsive={responsive}>
-                <div>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/77OQpKaKPTU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+                <div style={{ marginRight: 10}}>
+                    <iframe width="450" height="253" src="https://www.youtube.com/embed/77OQpKaKPTU" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> 
+                </div>
+                <div style={{ marginLeft: 10, marginRight: 10}}>
+                    <iframe width="450" height="253" src="https://www.youtube.com/embed/xxGUF2VlS6c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> 
                 </div>
                 <div>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/xxGUF2VlS6c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+                    <iframe width="450" height="253" src="https://www.youtube.com/embed/dIdRV7hRCfI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> 
                 </div>
                 <div>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/dIdRV7hRCfI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+                    <iframe width="450" height="253" src="https://www.youtube.com/embed/sgbU2xKIZyc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> 
                 </div>
                 <div>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/sgbU2xKIZyc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+                    <iframe width="450" height="253" src="https://www.youtube.com/embed/sNZIrei0zmY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> 
                 </div>
                 <div>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/sNZIrei0zmY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
-                </div>
-                <div>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/8z9MPZmZf94" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+                    <iframe width="450" height="253" src="https://www.youtube.com/embed/8z9MPZmZf94" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> 
                 </div>
             </Carousel>
             {/* <Carousel fade>
                 <Carousel.Item>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/77OQpKaKPTU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/77OQpKaKPTU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>                    
                 </Carousel.Item>
                 <Carousel.Item>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/xxGUF2VlS6c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/xxGUF2VlS6c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/dIdRV7hRCfI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/dIdRV7hRCfI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/sgbU2xKIZyc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/sgbU2xKIZyc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/sNZIrei0zmY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/sNZIrei0zmY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/8z9MPZmZf94" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/8z9MPZmZf94" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 </Carousel.Item>
             </Carousel> */}
         </div>
