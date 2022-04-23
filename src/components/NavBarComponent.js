@@ -15,8 +15,8 @@ const [toggle, setToggle] = useState(false)
                     <NavbarToggle onClick={() => setToggle(!toggle)} />
                     <Nav>
                         <Nav.Link href='#home' className='nav-link' style={{ color: 'white', paddingRight: 20}}>Home</Nav.Link>
-                        <Nav.Link href='#music' className='nav-link' style={{ color: 'white', paddingRight: 20}}>Music</Nav.Link>
-                        <Nav.Link href='#contact' className='nav-link' style={{ color: 'white', paddingRight: 20}}>Contact Us</Nav.Link>
+                        {/* <Nav.Link href='#music' className='nav-link' style={{ color: 'white', paddingRight: 20}}>Music</Nav.Link>
+                        <Nav.Link href='#contact' className='nav-link' style={{ color: 'white', paddingRight: 20}}>Contact Us</Nav.Link> */}
                     </Nav>
                     
                         
