@@ -27,10 +27,10 @@ function VideoCarousel() {
     return ( 
         <div>
             <Carousel responsive={responsive}>
-                <div style={{ marginRight: 10}}>
+                <div>
                     <iframe width="450" height="253" src="https://www.youtube.com/embed/77OQpKaKPTU" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> 
                 </div>
-                <div style={{ marginLeft: 10, marginRight: 10}}>
+                <div>
                     <iframe width="450" height="253" src="https://www.youtube.com/embed/xxGUF2VlS6c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> 
                 </div>
                 <div>
