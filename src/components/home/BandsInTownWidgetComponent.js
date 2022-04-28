@@ -1,14 +1,23 @@
 import React, { useEffect, useState } from 'react';
+import Cors from 'cors';
 
 
-function BandsInTownWidget() {
+export default function BandsInTownWidget() {
 
-    const [data, setData] = useState()
+    const [data, setData] = useState();   
 
-    useEffect(() => {
-        const api = https:rest.bandsintown.com/artists/{{Walt & Jackie}}/?app_id=yOUrSuP3r3ven7aPp-id
-    })
+    
     return(
-
+        useEffect(() => {
+            const url = 'https://waltandjackie.com/https://rest.bandsintown.com/artists/id_{{56f957a46add67b78dc45c75cd5baa1a}}/events';
+            
+            fetch(url)
+            .then(res => res.json())
+            .then((json) => {
+                console.log(json)
+                setData(json)
+            })
+        })
+        
     );
 }

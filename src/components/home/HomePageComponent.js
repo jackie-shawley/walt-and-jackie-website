@@ -3,6 +3,7 @@ import HomeCarousel from './HomeCarouselComponent';
 import VideoCarousel from './VideoCarouselComponent';
 import { Row, Col } from 'react-bootstrap';
 import { SocialIcon } from 'react-social-icons'; 
+import BandsInTownWidget from './BandsInTownWidgetComponent';
 
 
 function HomePage() {
@@ -17,7 +18,7 @@ return(
                     <iframe width="85%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1249308064&color=%2354041c&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true" title="Walt &amp; Jackie cover You've Got A Friend"></iframe><div style={{ fontSize: '10px', color: '#cccccc', lineBreak: 'anywhere', wordBreak: 'normal', overflow: 'hidden', whiteSpace: 'nowrap', textOverflow: 'ellipsis', fontFamily: 'Interstate', fontWeight: 100 }}><a href="https://soundcloud.com/user-371562063" title="Walt &amp; Jackie" target="_blank" rel="noreferrer" style={{ color: '#cccccc', textDecoration: 'none' }}>Walt &amp; Jackie</a> · <a href="https://soundcloud.com/user-371562063/youve-got-a-friend" title="You&#x27;ve Got A Friend" target="_blank" rel="noreferrer" style={{ color: '#cccccc', textDecoration: 'none'}}>You&#x27;ve Got A Friend</a></div>
                 </div>
             </Col>
-            <Col sm={6} style={{ marginTop: 60, paddingLeft: 60, textAlign: 'left'}}>               
+            <Col sm={6} style={{ marginTop: 60, paddingLeft: 60, textAlign: 'center'}}>               
                 <h3 style={{ fontSize: '3rem' }}>Booking:</h3>
                 <a className='email' style={{ fontFamily: 'Playfair Display', fontSize: '2rem', color: '#A3956D'}} href="mailto:waltandjackie@gmail.com">waltandjackie@gmail.com</a> 
             </Col>
@@ -36,12 +37,14 @@ return(
             </Col>
             <Col sm={6} style={{ marginTop: 100 }}>
                 {/* reverbnation email widget */}
-                <div class="widget_iframe" style={{ display:'inline-block', width:'300px', height:'185px', margin:0, padding:0,border:0 }}><iframe class="widget_iframe" src="https://www.reverbnation.com/widget_code/html_widget/artist_1090826?widget_id=54&amp;posted_by=artist_1090826&pwc[design]=customized&pwc[background_color]=%23666666&pwc[size]=custom" width="100%" height="100%" frameborder="0" scrolling="no" title="Reverbnation email list signup" ></iframe><div class="footer_branding" style={{ marginTop:'-5px', fontSize: '10px', fontFamily: 'Arial' }} ><center><a href="https://www.reverbnation.com/band-promotion/fanreach?utm_campaign=a_features_fanreach&utm_medium=widget&utm_source=HTML5_Fan_Collector&utm_content=widgetfooter_Email newsletters for bands at ReverbNation.com" target="_blank" rel="noreferrer" style={{ textDecoration:'none', color:'#444' }}>Email newsletters for bands at ReverbNation.com</a></center></div></div>
+                <div class="widget_iframe" style={{ display:'inline-block', width:'300px', height:'185px', marginLeft: 50 }}><iframe class="widget_iframe" src="https://www.reverbnation.com/widget_code/html_widget/artist_1090826?widget_id=54&amp;posted_by=artist_1090826&pwc[design]=customized&pwc[background_color]=%23666666&pwc[size]=custom" width="100%" height="100%" frameborder="0" scrolling="no" title="Reverbnation email list signup" ></iframe><div class="footer_branding" style={{ marginTop:'-5px', fontSize: '10px', fontFamily: 'Arial' }} ><center><a href="https://www.reverbnation.com/band-promotion/fanreach?utm_campaign=a_features_fanreach&utm_medium=widget&utm_source=HTML5_Fan_Collector&utm_content=widgetfooter_Email newsletters for bands at ReverbNation.com" target="_blank" rel="noreferrer" style={{ textDecoration:'none', color:'#444' }}>Email newsletters for bands at ReverbNation.com</a></center></div></div>
                 <br />
                 <br />
-                <SocialIcon url= 'https://www.facebook.com/waltandjackie' style={{ margin: 9 }}/>
-                <SocialIcon url= 'https://www.bandsintown.com/a/4261532-walt-and-jackie?came_from=257&utm_medium=web&utm_source=home&utm_campaign=search_bar' style={{ margin: 9 }}/>
-                <SocialIcon url= 'https://www.youtube.com/channel/UClZEqPxlRZEqVerkh2MYiFQ' style={{ margin: 9 }}/>
+                <div style={{ marginLeft: 50 }}>
+                    <SocialIcon url= 'https://www.facebook.com/waltandjackie' style={{ margin: 9 }}/>
+                    <SocialIcon url= 'https://www.bandsintown.com/a/4261532-walt-and-jackie?came_from=257&utm_medium=web&utm_source=home&utm_campaign=search_bar' style={{ margin: 9 }}/>
+                    <SocialIcon url= 'https://www.youtube.com/channel/UClZEqPxlRZEqVerkh2MYiFQ' style={{ margin: 9 }}/>
+                </div>
             </Col>
         </Row>
         <Row style={{ marginBottom: 20 }}>
@@ -78,6 +81,9 @@ return(
 			</Row>
 			<hr />
 		</div>
+        <div>
+            <BandsInTownWidget />
+        </div>
     </div>
     );
 }
