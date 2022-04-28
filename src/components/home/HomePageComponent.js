@@ -81,9 +81,6 @@ return(
 			</Row>
 			<hr />
 		</div>
-        <div>
-            <BandsInTownWidget />
-        </div>
     </div>
     );
 }
