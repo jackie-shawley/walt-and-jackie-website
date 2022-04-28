@@ -8,7 +8,7 @@ export default function HomeCarousel() {
                 <Carousel.Item interval={3000}>
                     <img
                         className='carousel-img'
-                        src='/images/carousel photos/Walt-and-Jackie-standing-back-to-back.png'
+                        src='/images/carousel photos/Walt-and-Jackie-standing-back-to-back.jpg'
                         alt='Walt &amp; Jackie back to back with guitars'
                     />
                     {/* <Carousel.Caption>
