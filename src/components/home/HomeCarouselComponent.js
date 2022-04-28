@@ -41,7 +41,7 @@ export default function HomeCarousel() {
                 <Carousel.Item interval={3000}>
                     <img
                         className='carousel-img'
-                        src='/images/carousel photos/eric-beag-pushup-ppac-2019.jpeg'
+                        src='/images/carousel photos/eric-beag-pushup-ppac-2019.jpg'
                         alt='Eric Shawley and Beagan the Border Collie entertaining at PPAC Hometown Holidays show'
                     />
                     {/* <Carousel.Caption>
@@ -52,7 +52,7 @@ export default function HomeCarousel() {
                 <Carousel.Item interval={3000}>
                     <img
                         className='carousel-img'
-                        src='/images/carousel photos/bongo-pic-summerhill.jpeg'
+                        src='/images/carousel photos/bongo-pic-summerhill.jpg'
                         alt='Walt &amp; Jackie silly bongo playing'
                     />
                     {/* <Carousel.Caption>
@@ -63,7 +63,7 @@ export default function HomeCarousel() {
                 <Carousel.Item interval={3000}>
                     <img
                         className='carousel-img'
-                        src='/images/carousel photos/walt-ebensburg-gazebo.jpeg'
+                        src='/images/carousel photos/walt-ebensburg-gazebo.jpg'
                         alt='Walt Churchey singing'
                     />
                     {/* <Carousel.Caption>
@@ -96,7 +96,7 @@ export default function HomeCarousel() {
                 <Carousel.Item interval={3000}>
                     <img
                         className='carousel-img'
-                        src='/images/carousel photos/jackie-guitar-ppac-2019.jpeg'
+                        src='/images/carousel photos/jackie-guitar-ppac-2019.jpg'
                         alt='Jackie Kopco singing'
                     />
                     {/* <Carousel.Caption>
@@ -107,7 +107,7 @@ export default function HomeCarousel() {
                 <Carousel.Item interval={3000}>
                     <img
                         className='carousel-img'
-                        src='/images/carousel photos/blowing-snow-promo-photo.jpeg'
+                        src='/images/carousel photos/blowing-snow-promo-photo.jpg'
                         alt='Walt &amp; Jackie blowing snow at camera'
                     />
                     {/* <Carousel.Caption>
@@ -140,7 +140,7 @@ export default function HomeCarousel() {
                 <Carousel.Item interval={3000}>
                     <img
                         className='carousel-img'
-                        src='/images/carousel photos/walt-jack-singing-ppac-2019.png'
+                        src='/images/carousel photos/walt-jack-singing-ppac-2019.jpg'
                         alt='Walt &amp; Jackie singing at PPAC Hometown Holidays show'
                     />
                     {/* <Carousel.Caption>
