@@ -58,6 +58,17 @@ return(
 				<h2>Shows</h2>
 			</Row>
 			<hr />
+            <Row style={{ marginTop: 20 }}>
+				<Col style={{ alignItems: 'right' }}>
+					<h4>19 June</h4>
+					<h5>5:00pm - 6:00pm</h5>
+				</Col>
+				<Col>
+					<h4>Roxbury Bandshell</h4>
+					<p>1430 Franklin St, Johnstown, PA</p>
+				</Col>
+			</Row>
+			<hr />
 			<Row style={{ marginTop: 20 }}>
 				<Col style={{ alignItems: 'right' }}>
 					<h4>10 July</h4>
@@ -77,6 +88,17 @@ return(
 				<Col>
 					<h4>PennCrest Bank Music Festival @ Cresson Lake Playhouse</h4>
 					<p>279 Shapiro Road, Loretto, PA</p>
+				</Col>
+			</Row>
+			<hr />
+            <Row style={{ marginTop: 20 }}>
+				<Col style={{ alignItems: 'right' }}>
+					<h4>6 October</h4>
+					<h5>6:00pm - 8:30pm</h5>
+				</Col>
+				<Col>
+					<h4>Sip &amp; Savor at Gallery On Gazebo</h4>
+					<p>140 Gazebo Place, Johnstown, PA</p>
 				</Col>
 			</Row>
 			<hr />
