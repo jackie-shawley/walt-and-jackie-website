@@ -58,45 +58,45 @@ return(
 				<h2>Shows</h2>
 			</Row>
 			<hr />
-            <Row style={{ marginTop: 20 }}>
-				<Col style={{ alignItems: 'right' }}>
+            <Row className="justify-content-center" style={{ marginTop: 20 }}>
+				<Col className="col-sm-12, col-md-4" style={{ alignItems: 'right' }}>
 					<h4>19 June</h4>
 					<h5>5:00pm - 6:00pm</h5>
 				</Col>
-				<Col>
+				<Col className="col-sm-12, col-md-4">
 					<h4>Roxbury Bandshell</h4>
 					<p>1430 Franklin St, Johnstown, PA</p>
 				</Col>
 			</Row>
 			<hr />
-			<Row style={{ marginTop: 20 }}>
-				<Col style={{ alignItems: 'right' }}>
+			<Row className="justify-content-center" style={{ marginTop: 20 }}>
+				<Col className="col-sm-12, col-md-4" style={{ alignItems: 'right' }}>
 					<h4>10 July</h4>
 					<h5>12:00pm - 2:00pm</h5>
 				</Col>
-				<Col>
+				<Col className="col-sm-12, col-md-4">
 					<h4>St. Benedict Church Reunion Festival</h4>
 					<p>2310 Bedford St, Johnstown, PA</p>
 				</Col>
 			</Row>
 			<hr />
-			<Row style={{ marginTop: 20 }}>
-				<Col>
+			<Row className="justify-content-center" style={{ marginTop: 20 }}>
+				<Col className="col-sm-12, col-md-4" style={{ alignItems: 'right' }}>
 					<h4>16 July</h4>
 					<h5>2:00pm - 3:30pm</h5>
 				</Col>
-				<Col>
+				<Col className="col-sm-12, col-md-4" style={{ alignItems: 'right' }}>
 					<h4>PennCrest Bank Music Festival @ Cresson Lake Playhouse</h4>
 					<p>279 Shapiro Road, Loretto, PA</p>
 				</Col>
 			</Row>
 			<hr />
-            <Row style={{ marginTop: 20 }}>
-				<Col style={{ alignItems: 'right' }}>
+            <Row className="justify-content-center" style={{ marginTop: 20 }}>
+				<Col className="col-sm-12, col-md-4" style={{ alignItems: 'right' }}>
 					<h4>6 October</h4>
 					<h5>6:00pm - 8:30pm</h5>
 				</Col>
-				<Col>
+				<Col className="col-sm-12, col-md-4">
 					<h4>Sip &amp; Savor at Gallery On Gazebo</h4>
 					<p>140 Gazebo Place, Johnstown, PA</p>
 				</Col>

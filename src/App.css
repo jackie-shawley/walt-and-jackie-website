@@ -103,6 +103,11 @@ h3 {
     
   }
 
+  .vl {
+    border-right: 6px solid white;
+    height: 20px;
+  }
+
 /* Carousel */
   .carousel-img {
     height: 500px;
@@ -136,3 +141,58 @@ h3 {
   margin-top: 20px;
   margin-bottom: 40px;
 }
+
+/* Music Page */
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.centered {
+  position: absolute;
+  top: 10%;
+  left: 40%;
+}
+
+.centered h1 {
+  font-family: 'Fredericka the Great';
+  color:black;
+  font-size: 7vw;
+}
+
+.album-card {
+  width: 20rem;
+  margin-top: 60px;
+}
+
+.linktree-card {
+  width: 20rem;
+  margin-top: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  border: #786d4f;
+}
+
+.linktree-card-text {
+  font-family: 'Avenir', sans-serif;
+  font-size: 2rem;
+  color: #fee7aa;
+}
+
+.button {
+  position: relative;
+  font-family: 'Avenir Light', sans-serif;
+  font-size: medium;
+  background-color: #A3956D !important;
+  border-color: #7d7c7c !important;
+}
+
+.button-logo {
+  position: absolute;
+  left: 10px;
+  width: 50px;
+  height: 40px;
+  margin-top: -5px;
+}
+
+

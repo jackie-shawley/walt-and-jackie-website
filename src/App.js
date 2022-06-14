@@ -1,11 +1,10 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
 import React, { useEffect } from 'react';
 import './App.css';
-import HomePage from './components/home/HomePageComponent';
+import Main from './components/MainComponent';
 import WebFont from 'webfontloader';
 import 'bootstrap/dist/css/bootstrap.css';
-import Header from './components/HeaderComponent';
-import Footer from './components/FooterComponent';
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
 
@@ -20,9 +19,11 @@ function App() {
   return (
     <div className="App">
       {/* <h1 style={{ fontFamily: 'Fredericka the Great', fontSize: '2rem', color: 'white'}}>This is app</h1> */}
-      <Header />
-      <HomePage />
-      <Footer />
+      <BrowserRouter>
+        <div className="App">
+          <Main />
+        </div>
+      </BrowserRouter>
     </div>
   );
 }

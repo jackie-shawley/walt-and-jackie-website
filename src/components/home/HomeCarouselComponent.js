@@ -41,6 +41,17 @@ export default function HomeCarousel() {
                 <Carousel.Item interval={3000}>
                     <img
                         className='carousel-img'
+                        src='/images/carousel photos/ebensburg_gazebo_for_web.jpg'
+                        alt='Walt &amp; Jackie CD release party'
+                    />
+                    {/* <Carousel.Caption>
+                        <h3>A Walt &amp; Jackie Christmas</h3>
+                        <p>Walt &amp; Jackie are joined by Denise Baldwin and Sam Coco in an a capella rendition of 'Silent Night'</p>  
+                    </Carousel.Caption> */}
+                </Carousel.Item>
+                <Carousel.Item interval={3000}>
+                    <img
+                        className='carousel-img'
                         src='/images/carousel photos/eric-beag-pushup-ppac-2019.jpg'
                         alt='Eric Shawley and Beagan the Border Collie entertaining at PPAC Hometown Holidays show'
                     />
