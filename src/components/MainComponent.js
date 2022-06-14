@@ -23,11 +23,7 @@ export default function Main () {
                             <Route exact path='/contact' component={Contact} /> */}
                             <Route
                                 path="*"
-                                element={
-                                    <main style={{ padding: '1rem'}}>
-                                        <p>Oops, there's nothing here!</p>
-                                    </main>
-                                } />
+                                element={<HomePage />} />
                         </Routes>
                     </CSSTransition>
                 </TransitionGroup>
