@@ -17,7 +17,7 @@ export default function Main () {
                 <TransitionGroup>
                     <CSSTransition key={location.key} classNames='fade' timeout={300}>
                         <Routes location={location}>
-                            <Route exact path='/home' element={<HomePage />} />
+                            <Route exact path='/' element={<HomePage />} />
                             <Route exact path='/music' element={<MusicPage />} />
                             {/* <Route exact path='/aboutus' component={AboutUs} />
                             <Route exact path='/contact' component={Contact} /> */}
