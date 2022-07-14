@@ -3,8 +3,12 @@
   background-color: black;
 }
 
-a.footer-link:link {
-  color: '#A3956D';
+.footer-link {
+  color: #A3956D;
+  text-decoration: none;
+}
+.footer-link:hover {
+  color: #4D4D4D;
   text-decoration: none;
 }
 

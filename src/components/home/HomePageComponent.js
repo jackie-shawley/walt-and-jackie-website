@@ -58,28 +58,6 @@ return(
 				<h2>Shows</h2>
 			</Row>
 			<hr />
-            <Row className="justify-content-center" style={{ marginTop: 20 }}>
-				<Col className="col-sm-12, col-md-4" style={{ alignItems: 'right' }}>
-					<h4>19 June</h4>
-					<h5>5:00pm - 6:00pm</h5>
-				</Col>
-				<Col className="col-sm-12, col-md-4">
-					<h4>Roxbury Bandshell</h4>
-					<p>1430 Franklin St, Johnstown, PA</p>
-				</Col>
-			</Row>
-			<hr />
-			<Row className="justify-content-center" style={{ marginTop: 20 }}>
-				<Col className="col-sm-12, col-md-4" style={{ alignItems: 'right' }}>
-					<h4>10 July</h4>
-					<h5>12:00pm - 2:00pm</h5>
-				</Col>
-				<Col className="col-sm-12, col-md-4">
-					<h4>St. Benedict Church Reunion Festival</h4>
-					<p>2310 Bedford St, Johnstown, PA</p>
-				</Col>
-			</Row>
-			<hr />
 			<Row className="justify-content-center" style={{ marginTop: 20 }}>
 				<Col className="col-sm-12, col-md-4" style={{ alignItems: 'right' }}>
 					<h4>16 July</h4>
