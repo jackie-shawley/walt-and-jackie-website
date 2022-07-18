@@ -58,17 +58,6 @@ return(
 				<h2>Shows</h2>
 			</Row>
 			<hr />
-			<Row className="justify-content-center" style={{ marginTop: 20 }}>
-				<Col className="col-sm-12, col-md-4" style={{ alignItems: 'right' }}>
-					<h4>16 July</h4>
-					<h5>2:00pm - 3:30pm</h5>
-				</Col>
-				<Col className="col-sm-12, col-md-4" style={{ alignItems: 'right' }}>
-					<h4>PennCrest Bank Music Festival @ Cresson Lake Playhouse</h4>
-					<p>279 Shapiro Road, Loretto, PA</p>
-				</Col>
-			</Row>
-			<hr />
             <Row className="justify-content-center" style={{ marginTop: 20 }}>
 				<Col className="col-sm-12, col-md-4" style={{ alignItems: 'right' }}>
 					<h4>6 October</h4>
