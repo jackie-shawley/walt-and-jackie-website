@@ -3,6 +3,7 @@ import HomeCarousel from './HomeCarouselComponent';
 import VideoCarousel from './VideoCarouselComponent';
 import { Row, Col } from 'react-bootstrap';
 import { SocialIcon } from 'react-social-icons'; 
+import { Button } from 'react-bootstrap';
 // import BandsInTownWidget from './BandsInTownWidgetComponent';
 
 
@@ -58,7 +59,29 @@ return(
 				<h2>Shows</h2>
 			</Row>
 			<hr />
-            <Row className="justify-content-center" style={{ marginTop: 20 }}>
+            <br />
+            <Row>
+                <Col>
+                <h4>Nothing to see here</h4>
+                <p style={{ fontSize:100 }}>&#128542;</p>
+                </Col>
+            </Row>
+            <Row>
+                <Col>
+                <Button 
+                    className='btn-shows'
+                    variant="default"
+                    style={{ color: "#A3956D", borderColor: "#A3956D", fontFamily: "Avenir-light", fontSize: '1.25rem', margin: 16 }}
+                    
+                    size="lg"
+                    href="mailto:waltandjackie@gmail.com">
+                    Request A Show
+                </Button>
+                </Col>
+            </Row>
+            <br />
+
+            {/* <Row className="justify-content-center" style={{ marginTop: 20 }}>
 				<Col className="col-sm-12, col-md-4" style={{ alignItems: 'right' }}>
 					<h4>6 October</h4>
 					<h5>6:00pm - 8:30pm</h5>
@@ -67,7 +90,7 @@ return(
 					<h4>Sip &amp; Savor at Gallery On Gazebo</h4>
 					<p>140 Gazebo Place, Johnstown, PA</p>
 				</Col>
-			</Row>
+			</Row> */}
 			<hr />
 		</div>
     </div>

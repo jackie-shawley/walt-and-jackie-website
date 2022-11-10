@@ -104,7 +104,16 @@ h3 {
     color:#A3956D;
     width: 85%;
     margin: auto;
-    
+  }
+
+  .btn-shows {
+    color:#A3956D;
+    outline-color: #A3956D;
+    background-color: #4D4D4D;
+  }
+
+  .btn-shows:hover { 
+    background-color: #786d4f;
   }
 
   .vl {
