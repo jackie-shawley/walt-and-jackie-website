@@ -208,4 +208,20 @@ h3 {
   margin-top: -5px;
 }
 
+.ticket-link {
+  color: #A3956D;
+  text-decoration: underline;
+}
+.ticket-link:hover {
+  color: #4D4D4D;
+  text-decoration: underline;
+}
+
+
+@media screen and (min-width: 768px) {
+  .hide-hr {
+    display: none;
+  }
+}
+
 

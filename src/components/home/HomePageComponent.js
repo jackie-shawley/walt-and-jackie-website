@@ -60,12 +60,38 @@ return(
 			</Row>
 			<hr />
             <br />
-            <Row>
+            {/* <Row>
                 <Col>
                 <h4>Nothing to see here</h4>
                 <p style={{ fontSize:100 }}>&#128542;</p>
                 </Col>
-            </Row>
+            </Row> */}
+             <Row className="justify-content-center" style={{ marginTop: 20 }}>
+				<Col xs={12} md={3} style={{ alignItems: 'right' }}>
+					<h4>18 December</h4>
+					<h5>7:00pm</h5>
+                    <hr className='hide-hr' style={{ marginTop: 30, marginBottom: 30}}></hr>
+				</Col>
+				<Col xs={12} md={3} className="show-col">
+					<h4>Walt & Jackie Present Christmas Favorites</h4>
+					<p>Walt & Jackie will once again take the stage with their good friends Denise Baldwin, Jim Churchey, Sam Coco and the Grumpy Elf to bring some Holiday Cheer to your Christmas season!🎄</p>
+                    <hr className='hide-hr' style={{ marginTop: 10, marginBottom: 30}}></hr>
+				</Col>
+                <Col xs={12} md={3} className="show-col">
+					<h4>The State Theater</h4>
+					<p>336 Main Street<br />Johnstown, PA</p>
+                    <hr className='hide-hr' style={{ marginTop: 10, marginBottom: 30}}></hr>
+				</Col>
+                <Col xs={12} md={3} className="show-col">
+					<h4><a className="ticket-link" href="https://statetheaterjohnstown.ticketleap.com/walt--jackie/dates/Dec-18-2022_at_0700PM" rel="noreferrer" target="_blank">Get Your Tickets</a></h4>
+                    <p>$15 - Advance purchase <br />
+                        $20 - Purchase at the door
+                    </p>
+				</Col>
+			</Row>
+            <br />
+            <hr />
+            <br />
             <Row>
                 <Col>
                 <Button 
@@ -81,16 +107,7 @@ return(
             </Row>
             <br />
 
-            {/* <Row className="justify-content-center" style={{ marginTop: 20 }}>
-				<Col className="col-sm-12, col-md-4" style={{ alignItems: 'right' }}>
-					<h4>6 October</h4>
-					<h5>6:00pm - 8:30pm</h5>
-				</Col>
-				<Col className="col-sm-12, col-md-4">
-					<h4>Sip &amp; Savor at Gallery On Gazebo</h4>
-					<p>140 Gazebo Place, Johnstown, PA</p>
-				</Col>
-			</Row> */}
+            
 			<hr />
 		</div>
     </div>
