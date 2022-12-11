@@ -209,14 +209,13 @@ h3 {
 }
 
 .ticket-link {
-  color: #A3956D;
+  color: rgb(163, 149, 109);
   text-decoration: underline;
 }
 .ticket-link:hover {
   color: #4D4D4D;
   text-decoration: underline;
 }
-
 
 @media screen and (min-width: 768px) {
   .hide-hr {

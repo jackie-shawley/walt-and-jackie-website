@@ -68,26 +68,25 @@ return(
             </Row> */}
              <Row className="justify-content-center" style={{ marginTop: 20 }}>
 				<Col xs={12} md={3} style={{ alignItems: 'right' }}>
-					<h4>18 December</h4>
-					<h5>7:00pm</h5>
+					<h4 style={{ textDecoration: 'line-through'}}>18 December</h4>
+					<h5 style={{ textDecoration: 'line-through'}}>7:00pm</h5>
                     <hr className='hide-hr' style={{ marginTop: 30, marginBottom: 30}}></hr>
 				</Col>
-				<Col xs={12} md={3} className="show-col">
-					<h4>Walt & Jackie Present Christmas Favorites</h4>
-					<p>Walt & Jackie will once again take the stage with their good friends Denise Baldwin, Jim Churchey, Sam Coco and the Grumpy Elf to bring some Holiday Cheer to your Christmas season!🎄</p>
+				<Col xs={12} md={3}>
+					<h4><span style={{ fontWeight: 'bold', color: 'red'}}>POSTPONED!!!</span> Walt & Jackie Present Christmas Favorites</h4>
                     <hr className='hide-hr' style={{ marginTop: 10, marginBottom: 30}}></hr>
 				</Col>
-                <Col xs={12} md={3} className="show-col">
+                <Col xs={12} md={3}>
 					<h4>The State Theater</h4>
 					<p>336 Main Street<br />Johnstown, PA</p>
                     <hr className='hide-hr' style={{ marginTop: 10, marginBottom: 30}}></hr>
 				</Col>
-                <Col xs={12} md={3} className="show-col">
+                {/* <Col xs={12} md={3} className="show-col">
 					<h4><a className="ticket-link" href="https://statetheaterjohnstown.ticketleap.com/walt--jackie/dates/Dec-18-2022_at_0700PM" rel="noreferrer" target="_blank">Get Your Tickets</a></h4>
                     <p>$15 - Advance purchase <br />
                         $20 - Purchase at the door
                     </p>
-				</Col>
+				</Col> */}
 			</Row>
             <br />
             <hr />
