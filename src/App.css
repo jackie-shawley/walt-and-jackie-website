@@ -56,7 +56,6 @@ h3 {
     font-family: 'Dosis';
     font-variant: small-caps;
     font-size: 2rem;
-
   }
 
   .nav-link:active {
@@ -100,6 +99,12 @@ h3 {
     font-size: 1.5rem;    
   }
 
+  .shows h6 {
+    font-family: 'Avenir Light', sans-serif;
+    color: #4D4D4D;
+    font-size: 1.25rem;
+  }
+
   .shows hr {
     color:#A3956D;
     width: 85%;
@@ -132,6 +137,36 @@ h3 {
     margin-top: 30px;
     margin-bottom: 50px;
   }
+
+  @media screen and (max-width: 576px) {
+    .carousel-img {
+      height: 250px;
+      width: 450px;
+      object-fit: cover;
+    }
+  }
+
+/* Soundcloud player */
+
+  .hp-soundcloud-player {
+    align-items: left;
+  }
+
+  .hp-player {
+    margin-top: 40;
+    margin-left: 40;
+  }
+
+  @media screen and (max-width: 576px) {
+    .hp-soundcloud-player {
+      align-items: center;
+    }
+
+    .hp-player {
+      margin-left: auto;
+    }
+  }
+  
 
   /* Footer */
   .footer-text {
@@ -217,6 +252,8 @@ h3 {
   text-decoration: underline;
 }
 
+
+/* Media Queries */
 @media screen and (min-width: 768px) {
   .hide-hr {
     display: none;

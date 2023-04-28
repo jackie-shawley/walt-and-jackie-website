@@ -2,6 +2,7 @@ import React from 'react';
 import Carousel from 'react-multi-carousel';
 import "react-multi-carousel/lib/styles.css";
 
+
 function VideoCarousel() {
 
     const responsive = {
@@ -11,24 +12,28 @@ function VideoCarousel() {
           items: 4
         },
         desktop: {
-          breakpoint: { max: 3000, min: 1024 },
+          breakpoint: { max: 3000, min: 992 },
           items: 3
         },
         tablet: {
-          breakpoint: { max: 1024, min: 464 },
-          items: 2
+          breakpoint: { max: 992, min: 576 },
+          items: 1
         },
         mobile: {
-          breakpoint: { max: 464, min: 0 },
+          breakpoint: { max: 576, min: 0 },
           items: 1
         }
       };
 
     return ( 
         <div>
-            <Carousel responsive={responsive}>
+            <Carousel 
+                responsive={responsive}
+                containerClass="video-carousel-container"
+                itemClass='video-carousel-item'
+            >
                 <div>
-                    <iframe width="450" height="253" src="https://www.youtube.com/embed/77OQpKaKPTU" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> 
+                    <iframe width="450" height="253" src="https://www.youtube.com/embed/77OQpKaKPTU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> 
                 </div>
                 <div>
                     <iframe width="450" height="253" src="https://www.youtube.com/embed/xxGUF2VlS6c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> 

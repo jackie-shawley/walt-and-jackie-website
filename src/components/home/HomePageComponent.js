@@ -13,13 +13,13 @@ return(
         <HomeCarousel />
         <VideoCarousel />
         <Row>
-            <Col sm={6} style={{ alignItems: 'left' }}>
-                <div style={{ marginTop: 40, marginLeft: 40}}>
+            <Col sm={12} md={6} className='hp-soundcloud-player'>
+                <div className='hp-player'style={{ marginTop: 40, marginLeft: 40}}>
                     {/* soundcloud player */}
                     <iframe width="85%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1249308064&color=%2354041c&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true" title="Walt &amp; Jackie cover You've Got A Friend"></iframe><div style={{ fontSize: '10px', color: '#cccccc', lineBreak: 'anywhere', wordBreak: 'normal', overflow: 'hidden', whiteSpace: 'nowrap', textOverflow: 'ellipsis', fontFamily: 'Interstate', fontWeight: 100 }}><a href="https://soundcloud.com/user-371562063" title="Walt &amp; Jackie" target="_blank" rel="noreferrer" style={{ color: '#cccccc', textDecoration: 'none' }}>Walt &amp; Jackie</a> · <a href="https://soundcloud.com/user-371562063/youve-got-a-friend" title="You&#x27;ve Got A Friend" target="_blank" rel="noreferrer" style={{ color: '#cccccc', textDecoration: 'none'}}>You&#x27;ve Got A Friend</a></div>
                 </div>
             </Col>
-            <Col sm={6} style={{ marginTop: 60, paddingLeft: 60, textAlign: 'center'}}>               
+            <Col sm={12} md={6} style={{ marginTop: 60, paddingLeft: 60, textAlign: 'center'}}>               
                 <h3 style={{ fontSize: '3rem' }}>Booking:</h3>
                 <a className='email' style={{ fontFamily: 'Playfair Display', fontSize: '2rem', color: '#A3956D'}} href="mailto:waltandjackie@gmail.com">waltandjackie@gmail.com</a> 
             </Col>
@@ -68,17 +68,18 @@ return(
             </Row> */}
              <Row className="justify-content-center" style={{ marginTop: 20 }}>
 				<Col xs={12} md={3} style={{ alignItems: 'right' }}>
-					<h4 style={{ textDecoration: 'line-through'}}>18 December</h4>
-					<h5 style={{ textDecoration: 'line-through'}}>7:00pm</h5>
+					<h4>18 June</h4>
+					<h5>5:00pm - 8:00pm</h5>
                     <hr className='hide-hr' style={{ marginTop: 30, marginBottom: 30}}></hr>
 				</Col>
 				<Col xs={12} md={3}>
-					<h4><span style={{ fontWeight: 'bold', color: 'red'}}>POSTPONED!!!</span> Walt & Jackie Present Christmas Favorites</h4>
+					<h4>Tremont Club</h4>
+                    <h6>* Membership NOT required</h6>
                     <hr className='hide-hr' style={{ marginTop: 10, marginBottom: 30}}></hr>
 				</Col>
                 <Col xs={12} md={3}>
-					<h4>The State Theater</h4>
-					<p>336 Main Street<br />Johnstown, PA</p>
+					<h4>St. Clair Tremont Club</h4>
+					<p>724 Fairfield Avenue<br />Johnstown, PA</p>
                     <hr className='hide-hr' style={{ marginTop: 10, marginBottom: 30}}></hr>
 				</Col>
                 {/* <Col xs={12} md={3} className="show-col">
@@ -88,7 +89,51 @@ return(
                     </p>
 				</Col> */}
 			</Row>
+            <hr />
             <br />
+            {/* <Row>
+                <Col>
+                <h4>Nothing to see here</h4>
+                <p style={{ fontSize:100 }}>&#128542;</p>
+                </Col>
+            </Row> */}
+            <Row className="justify-content-center" style={{ marginTop: 20 }}>
+				<Col xs={12} md={3} style={{ alignItems: 'right' }}>
+					<h4>2 July</h4>
+					<h5>6:00pm - 7:00pm</h5>
+                    <hr className='hide-hr' style={{ marginTop: 30, marginBottom: 30}}></hr>
+				</Col>
+				<Col xs={12} md={3}>
+					<h4>Roxbury Bandshell</h4>
+                    <h6>Rain or shine - bring a lawn chair!</h6>
+                    <hr className='hide-hr' style={{ marginTop: 10, marginBottom: 30}}></hr>
+				</Col>
+                <Col xs={12} md={3}>
+					<h4>Roxbury Park</h4>
+					<p>1430 Franklin Street<br />Johnstown, PA</p>
+                    <hr className='hide-hr' style={{ marginTop: 10, marginBottom: 30}}></hr>
+				</Col>
+			</Row>
+            <hr />
+            <br />
+            <Row className="justify-content-center" style={{ marginTop: 20 }}>
+				<Col xs={12} md={3} style={{ alignItems: 'right' }}>
+					<h4>21 July</h4>
+					<h5>6:00pm</h5>
+                    <h3 style={{ marginTop: 40 }}><a className="ticket-link" href="https://www.galleryongazebo.org/sip-savor-evenings-2023/" rel="noreferrer" target="_blank">Get Your Tickets</a></h3>
+                    <hr className='hide-hr' style={{ marginTop: 30, marginBottom: 30}}></hr>
+				</Col>
+				<Col xs={12} md={3}>
+					<h4>Sip &amp; Savor</h4>
+                    <h6>Music begins at 6 PM under the twinkling lights of the Piazza, inside the Gallery, or across Gazebo Place under the Roof of the Central Park Gazebo. Plan now to attend. Dress is informal. Adults only. $25 donation includes culinary and liquid delights.</h6>
+                    <hr className='hide-hr' style={{ marginTop: 10, marginBottom: 30}}></hr>
+				</Col>
+                <Col xs={12} md={3}>
+					<h4>Gallery On Gazebo</h4>
+					<p>140 Gazebo Place<br />Johnstown, PA</p>
+                    <hr className='hide-hr' style={{ marginTop: 10, marginBottom: 30}}></hr>
+				</Col>
+			</Row>
             <hr />
             <br />
             <Row>
