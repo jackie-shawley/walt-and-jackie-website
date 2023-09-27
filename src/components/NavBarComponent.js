@@ -1,11 +1,12 @@
-import React, { useState }  from 'react';
-import { Navbar, Container, Nav, Row, Col } from 'react-bootstrap';
-import NavbarToggle from 'react-bootstrap/esm/NavbarToggle';
+// import React, { useState }  from 'react';
+import React from 'react';
+import { Navbar, Nav, Row, Col } from 'react-bootstrap';
+// import NavbarToggle from 'react-bootstrap/esm/NavbarToggle';
 
 
 function NavBar() {
 
-const [toggle, setToggle] = useState(false)
+// const [toggle, setToggle] = useState(false)
 
     return (  
         <div>
