@@ -56,19 +56,21 @@ h3 {
     font-family: 'Dosis';
     font-variant: small-caps;
     font-size: 2rem;
+    color: white;
   }
 
   .nav-link:active {
-    color: #A3956D
+    color: #A3956D;
   }
 
   .nav-link:hover {
-    color: #fee7aa
+    color: #fee7aa;
   }
 
-  .nav-container {
-    justify-content: center;
+  .nav {
+    justify-content: right;
   }
+
 
 /* HomePage */
   .home-page {
@@ -259,5 +261,29 @@ h3 {
     display: none;
   }
 }
+
+@media screen and (min-width: 300px) {
+  .nav {
+    justify-content: center;
+  }
+
+  .nav-brand {
+    justify-content: center;
+  }
+
+  .link {
+    padding-right: 0;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .nav {
+    justify-content: right;
+    margin-right: 50;
+
+  }
+}
+  
+
 
 

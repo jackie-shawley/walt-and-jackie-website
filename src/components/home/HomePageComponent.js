@@ -66,28 +66,57 @@ return(
                 <p style={{ fontSize:100 }}>&#128542;</p>
                 </Col>
             </Row> */}
-             <Row className="justify-content-center" style={{ marginTop: 20 }}>
+            <Row className="justify-content-center" style={{ marginTop: 20 }}>
 				<Col xs={12} md={3} style={{ alignItems: 'right' }}>
-					<h4>18 June</h4>
-					<h5>5:00pm - 8:00pm</h5>
+					<h4>30 September</h4>
                     <hr className='hide-hr' style={{ marginTop: 30, marginBottom: 30}}></hr>
 				</Col>
 				<Col xs={12} md={3}>
-					<h4>Tremont Club</h4>
-                    <h6>* Membership NOT required</h6>
+					<h4>Private Party</h4>
                     <hr className='hide-hr' style={{ marginTop: 10, marginBottom: 30}}></hr>
 				</Col>
                 <Col xs={12} md={3}>
-					<h4>St. Clair Tremont Club</h4>
-					<p>724 Fairfield Avenue<br />Johnstown, PA</p>
-                    <hr className='hide-hr' style={{ marginTop: 10, marginBottom: 30}}></hr>
+                    <Button 
+                        className='btn-shows'
+                        variant="default"
+                        style={{ color: "#A3956D", borderColor: "#A3956D", fontFamily: "Avenir-light", fontSize: '1.25rem', marginBottom: 16, marginTop: -12 }}
+                        size="lg"
+                        href="mailto:waltandjackie@gmail.com">
+                        Request A Show
+                    </Button>
 				</Col>
-                {/* <Col xs={12} md={3} className="show-col">
-					<h4><a className="ticket-link" href="https://statetheaterjohnstown.ticketleap.com/walt--jackie/dates/Dec-18-2022_at_0700PM" rel="noreferrer" target="_blank">Get Your Tickets</a></h4>
-                    <p>$15 - Advance purchase <br />
-                        $20 - Purchase at the door
-                    </p>
-				</Col> */}
+			</Row>
+            <hr />
+            <br />
+             <Row className="justify-content-center" style={{ marginTop: 20 }}>
+                <Col xs={12} md={3} style={{ alignItems: 'right' }}>
+					<h4>17 November</h4>
+					<h5>8:30pm</h5>
+                    <hr className='hide-hr' style={{ marginTop: 30, marginBottom: 30}}></hr>
+				</Col>
+				<Col xs={12} md={3}>
+					<h4>Get in the Holiday Spirit!</h4>
+                    <h6>Our annual holiday show is finally back! We'll be joined by Sam Coco, Jim Churchey and the Grumpy Elf to make your spirits bright as we kickoff the holiday season. Come on down after Light Up Night to keep the holidy cheer flowing! &#127876;</h6>
+                    <hr className='hide-hr' style={{ marginTop: 10, marginBottom: 30}}></hr>
+                    <br />
+                    <div className='d-grid gap-2'>
+                        <Button 
+                            className='btn-shows'
+                            variant="danger"
+                            style={{ fontFamily: "Avenir-light", fontSize: '1.25rem', marginBottom: 26 }}
+                            size="lg"
+                            href="https://statetheaterjohnstown.ticketleap.com/walt--jackie-get-in-the-holiday-spirit/" target="_blank">
+                            &#10052;
+                            Get Tickets
+                            &#10052;
+                        </Button>
+                    </div>
+				</Col>
+                <Col xs={12} md={3}>
+					<h4>The State Theater of Johnstown</h4>
+					<p>336 Main Street<br />Johnstown, PA</p>
+                    <hr className='hide-hr' style={{ marginTop: 10, marginBottom: 30}}></hr>
+				</Col>			
 			</Row>
             <hr />
             <br />
@@ -96,27 +125,8 @@ return(
                 <h4>Nothing to see here</h4>
                 <p style={{ fontSize:100 }}>&#128542;</p>
                 </Col>
-            </Row> */}
-            <Row className="justify-content-center" style={{ marginTop: 20 }}>
-				<Col xs={12} md={3} style={{ alignItems: 'right' }}>
-					<h4>2 July</h4>
-					<h5>6:00pm - 7:00pm</h5>
-                    <hr className='hide-hr' style={{ marginTop: 30, marginBottom: 30}}></hr>
-				</Col>
-				<Col xs={12} md={3}>
-					<h4>Roxbury Bandshell</h4>
-                    <h6>Rain or shine - bring a lawn chair!</h6>
-                    <hr className='hide-hr' style={{ marginTop: 10, marginBottom: 30}}></hr>
-				</Col>
-                <Col xs={12} md={3}>
-					<h4>Roxbury Park</h4>
-					<p>1430 Franklin Street<br />Johnstown, PA</p>
-                    <hr className='hide-hr' style={{ marginTop: 10, marginBottom: 30}}></hr>
-				</Col>
-			</Row>
-            <hr />
-            <br />
-            <Row className="justify-content-center" style={{ marginTop: 20 }}>
+            </Row> */}            
+            {/* <Row className="justify-content-center" style={{ marginTop: 20 }}>
 				<Col xs={12} md={3} style={{ alignItems: 'right' }}>
 					<h4>21 July</h4>
 					<h5>6:00pm</h5>
@@ -135,7 +145,7 @@ return(
 				</Col>
 			</Row>
             <hr />
-            <br />
+            <br /> */}
             <Row>
                 <Col>
                 <Button 

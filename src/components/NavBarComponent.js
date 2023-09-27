@@ -1,5 +1,5 @@
 import React, { useState }  from 'react';
-import { Navbar, Container, Nav } from 'react-bootstrap';
+import { Navbar, Container, Nav, Row, Col } from 'react-bootstrap';
 import NavbarToggle from 'react-bootstrap/esm/NavbarToggle';
 
 
@@ -9,16 +9,19 @@ const [toggle, setToggle] = useState(false)
 
     return (  
         <div>
-            <Navbar sticky='top' expand='md' className='navbar'>
-                <Container className='nav-container'>
-                    <Navbar.Brand href="/home" style={{ fontFamily:'Fredericka The Great', fontSize: '3rem', color: '#A3956D' }}>Walt &amp; Jackie</Navbar.Brand>
-                    <NavbarToggle onClick={() => setToggle(!toggle)} />
-                    <Nav>
-                        <Nav.Link href='/home' className='nav-link' style={{ color: 'white', paddingRight: 20}}>Home</Nav.Link>
-                        <Nav.Link href='/music' className='nav-link' style={{ color: 'white', paddingRight: 20}}>Music</Nav.Link>
-                        {/* <Nav.Link href='#contact' className='nav-link' style={{ color: 'white', paddingRight: 20}}>Contact Us</Nav.Link> */}
-                    </Nav>
-                </Container>
+            <Navbar sticky='top' className='navbar'>
+                <Row style={{width: '100%'}}>
+                    <Col sm={12} md={6}>
+                        <Navbar.Brand className="nav-brand" href="/home" style={{ fontFamily:'Fredericka The Great', fontSize: '3rem', color: '#A3956D' }}>Walt &amp; Jackie</Navbar.Brand>
+                    </Col>
+                    <Col sm={12} md={6} className='nav'>
+                        <Nav className='mr-auto'>
+                            <Nav.Link href='/home' class='nav-link' style={{ color: 'white', paddingRight: 20 }}>Home</Nav.Link>
+                            <Nav.Link href='/music' className='nav-link' style={{ color: 'white', paddingRight: 85 }}>Music</Nav.Link>
+                            {/* <Nav.Link href='#contact' className='nav-link' style={{ color: 'white', paddingRight: 20}}>Contact Us</Nav.Link> */}
+                        </Nav>
+                    </Col>
+                </Row>
             </Navbar>
         </div>
     );
