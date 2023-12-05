@@ -66,57 +66,39 @@ return(
                 <p style={{ fontSize:100 }}>&#128542;</p>
                 </Col>
             </Row> */}
-            <Row className="justify-content-center" style={{ marginTop: 20 }}>
-				<Col xs={12} md={3} style={{ alignItems: 'right' }}>
-					<h4>30 September</h4>
-                    <hr className='hide-hr' style={{ marginTop: 30, marginBottom: 30}}></hr>
-				</Col>
-				<Col xs={12} md={3}>
-					<h4>Private Party</h4>
-                    <hr className='hide-hr' style={{ marginTop: 10, marginBottom: 30}}></hr>
-				</Col>
-                <Col xs={12} md={3}>
-                    <Button 
-                        className='btn-shows'
-                        variant="default"
-                        style={{ color: "#A3956D", borderColor: "#A3956D", fontFamily: "Avenir-light", fontSize: '1.25rem', marginBottom: 16, marginTop: -12 }}
-                        size="lg"
-                        href="mailto:waltandjackie@gmail.com">
-                        Request A Show
-                    </Button>
-				</Col>
-			</Row>
-            <hr />
-            <br />
              <Row className="justify-content-center" style={{ marginTop: 20 }}>
                 <Col xs={12} md={3} style={{ alignItems: 'right' }}>
-					<h4>17 November</h4>
+					<h4>8 December</h4>
 					<h5>8:30pm</h5>
                     <hr className='hide-hr' style={{ marginTop: 30, marginBottom: 30}}></hr>
 				</Col>
 				<Col xs={12} md={3}>
-					<h4>Get in the Holiday Spirit!</h4>
-                    <h6>Our annual holiday show is finally back! We'll be joined by Sam Coco, Jim Churchey and the Grumpy Elf to make your spirits bright as we kickoff the holiday season. Come on down after Light Up Night to keep the holidy cheer flowing! &#127876;</h6>
+					<h4>Home For The Holidays</h4>
                     <hr className='hide-hr' style={{ marginTop: 10, marginBottom: 30}}></hr>
-                    <br />
-                    <div className='d-grid gap-2'>
-                        <Button 
-                            className='btn-shows'
-                            variant="danger"
-                            style={{ fontFamily: "Avenir-light", fontSize: '1.25rem', marginBottom: 26 }}
-                            size="lg"
-                            href="https://statetheaterjohnstown.ticketleap.com/walt--jackie-get-in-the-holiday-spirit/" target="_blank">
-                            &#10052;
-                            Get Tickets
-                            &#10052;
-                        </Button>
-                    </div>
 				</Col>
                 <Col xs={12} md={3}>
-					<h4>The State Theater of Johnstown</h4>
-					<p>336 Main Street<br />Johnstown, PA</p>
+					<h4>Arbutus Park Retirement Community</h4>
+					<p>207 Ottawa St<br />Johnstown, PA</p>
                     <hr className='hide-hr' style={{ marginTop: 10, marginBottom: 30}}></hr>
 				</Col>			
+			</Row>
+            <hr />
+            <br />
+            <Row className="justify-content-center" style={{ marginTop: 20 }}>
+				<Col xs={12} md={3} style={{ alignItems: 'right' }}>
+					<h4>20 December</h4>
+                    <h5>7:00pm - 10:00pm</h5>
+                    <hr className='hide-hr' style={{ marginTop: 30, marginBottom: 30}}></hr>
+				</Col>
+				<Col xs={12} md={3}>
+					<h4>Ugly Holiday Sweater Party!</h4>
+                    <hr className='hide-hr' style={{ marginTop: 10, marginBottom: 30}}></hr>
+				</Col>
+                <Col xs={12} md={3}>
+                    <h4>The Fifth Local Eatery & Alehouse</h4>
+                    <p>1424 Scalp Avenue<br />Johnstown, PA</p>
+                    <hr className='hide-hr' style={{ marginTop: 10, marginBottom: 30}}></hr>
+				</Col>
 			</Row>
             <hr />
             <br />
