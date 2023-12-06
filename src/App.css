@@ -162,6 +162,7 @@ h3 {
   @media screen and (max-width: 576px) {
     .hp-soundcloud-player {
       align-items: center;
+      margin:auto;
     }
 
     .hp-player {
@@ -254,14 +255,31 @@ h3 {
   text-decoration: underline;
 }
 
-
-/* Media Queries */
-@media screen and (min-width: 768px) {
-  .hide-hr {
-    display: none;
-  }
+.home-cover-image {
+  height: 275px;
+  border: solid 4px green;
+  border-radius: 15px;
+  justify-content: flex-start;
+    
 }
 
+.home-player {
+  width: 100
+}
+
+/* .music-page-hr {
+  background: repeating-linear-gradient(
+    45deg,
+    white,
+    white 10px,
+    red 10px,
+    red 20px  
+  );
+  width: 75%; 
+} */
+
+
+/* Media Queries */
 @media screen and (min-width: 300px) {
   .nav {
     justify-content: center;
@@ -274,6 +292,22 @@ h3 {
   .link {
     padding-right: 0;
   }
+  .home-cover-image {
+    height: 255px;
+    margin-left: auto;
+    margin-bottom: 15px;
+  }
+
+  .home-player {
+    width: 50%;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .hide-hr {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 991px) {
@@ -283,7 +317,8 @@ h3 {
 
   }
 }
-  
+
+
 
 
 

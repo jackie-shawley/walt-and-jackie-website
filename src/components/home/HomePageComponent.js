@@ -130,15 +130,15 @@ return(
             <br /> */}
             <Row>
                 <Col>
-                <Button 
-                    className='btn-shows'
-                    variant="default"
-                    style={{ color: "#A3956D", borderColor: "#A3956D", fontFamily: "Avenir-light", fontSize: '1.25rem', margin: 16 }}
-                    
-                    size="lg"
-                    href="mailto:waltandjackie@gmail.com">
-                    Request A Show
-                </Button>
+                    <Button 
+                        className='btn-shows'
+                        variant="default"
+                        style={{ color: "#A3956D", borderColor: "#A3956D", fontFamily: "Avenir-light", fontSize: '1.25rem', margin: 16 }}
+                        
+                        size="lg"
+                        href="mailto:waltandjackie@gmail.com">
+                        Request A Show
+                    </Button>
                 </Col>
             </Row>
             <br />
