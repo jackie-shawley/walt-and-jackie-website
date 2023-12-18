@@ -13,16 +13,16 @@ return(
         <HomeCarousel />
         <VideoCarousel />
         <Row>
-            <Col sm={12} md={6} className='hp-soundcloud-player'>
+            <Col sm={12} md={12} className='hp-soundcloud-player'>
                 <div className='hp-player'style={{ marginTop: 40, marginLeft: 40}}>
                     {/* soundcloud player */}
                     <iframe width="85%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1249308064&color=%2354041c&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true" title="Walt &amp; Jackie cover You've Got A Friend"></iframe><div style={{ fontSize: '10px', color: '#cccccc', lineBreak: 'anywhere', wordBreak: 'normal', overflow: 'hidden', whiteSpace: 'nowrap', textOverflow: 'ellipsis', fontFamily: 'Interstate', fontWeight: 100 }}><a href="https://soundcloud.com/user-371562063" title="Walt &amp; Jackie" target="_blank" rel="noreferrer" style={{ color: '#cccccc', textDecoration: 'none' }}>Walt &amp; Jackie</a> · <a href="https://soundcloud.com/user-371562063/youve-got-a-friend" title="You&#x27;ve Got A Friend" target="_blank" rel="noreferrer" style={{ color: '#cccccc', textDecoration: 'none'}}>You&#x27;ve Got A Friend</a></div>
                 </div>
             </Col>
-            <Col sm={12} md={6} style={{ marginTop: 60, paddingLeft: 60, textAlign: 'center'}}>               
+            {/* <Col sm={12} md={6} style={{ marginTop: 60, paddingLeft: 60, textAlign: 'center'}}>               
                 <h3 style={{ fontSize: '3rem' }}>Booking:</h3>
                 <a className='email' style={{ fontFamily: 'Playfair Display', fontSize: '2rem', color: '#A3956D'}} href="mailto:waltandjackie@gmail.com">waltandjackie@gmail.com</a> 
-            </Col>
+            </Col> */}
         </Row>
         <Row>
             <Col sm={6}>
@@ -66,7 +66,7 @@ return(
                 <p style={{ fontSize:100 }}>&#128542;</p>
                 </Col>
             </Row> */}
-             <Row className="justify-content-center" style={{ marginTop: 20 }}>
+            {/* <Row className="justify-content-center" style={{ marginTop: 20 }}>
                 <Col xs={12} md={3} style={{ alignItems: 'right' }}>
 					<h4>8 December</h4>
 					<h5>8:30pm</h5>
@@ -81,9 +81,9 @@ return(
 					<p>207 Ottawa St<br />Johnstown, PA</p>
                     <hr className='hide-hr' style={{ marginTop: 10, marginBottom: 30}}></hr>
 				</Col>			
-			</Row>
-            <hr />
-            <br />
+			</Row> */}
+            {/* <hr />
+            <br /> */}
             <Row className="justify-content-center" style={{ marginTop: 20 }}>
 				<Col xs={12} md={3} style={{ alignItems: 'right' }}>
 					<h4>20 December</h4>
@@ -128,7 +128,7 @@ return(
 			</Row>
             <hr />
             <br /> */}
-            <Row>
+            {/* <Row>
                 <Col>
                     <Button 
                         className='btn-shows'
@@ -141,9 +141,7 @@ return(
                     </Button>
                 </Col>
             </Row>
-            <br />
-
-            
+            <br /> */}
 			<hr />
 		</div>
     </div>
