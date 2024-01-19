@@ -3,7 +3,7 @@ import HomeCarousel from './HomeCarouselComponent';
 import VideoCarousel from './VideoCarouselComponent';
 import { Row, Col } from 'react-bootstrap';
 import { SocialIcon } from 'react-social-icons'; 
-import { Button } from 'react-bootstrap';
+
 // import BandsInTownWidget from './BandsInTownWidgetComponent';
 
 
