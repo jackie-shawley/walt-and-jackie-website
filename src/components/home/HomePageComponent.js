@@ -86,17 +86,17 @@ return(
             <br /> */}
             <Row className="justify-content-center" style={{ marginTop: 20 }}>
 				<Col xs={12} md={3} style={{ alignItems: 'right' }}>
-					<h4>20 December</h4>
-                    <h5>7:00pm - 10:00pm</h5>
+					<h4>26 April</h4>
+                    <h5>5:30pm</h5>
                     <hr className='hide-hr' style={{ marginTop: 30, marginBottom: 30}}></hr>
 				</Col>
 				<Col xs={12} md={3}>
-					<h4>Ugly Holiday Sweater Party!</h4>
+					<h4>Last Friday at the Ethnic Social Club</h4>
                     <hr className='hide-hr' style={{ marginTop: 10, marginBottom: 30}}></hr>
 				</Col>
                 <Col xs={12} md={3}>
-                    <h4>The Fifth Local Eatery & Alehouse</h4>
-                    <p>1424 Scalp Avenue<br />Johnstown, PA</p>
+                    <h4>Heritage Discover Center - 4th floor</h4>
+                    <p>201 6th Avenue<br />Johnstown, PA</p>
                     <hr className='hide-hr' style={{ marginTop: 10, marginBottom: 30}}></hr>
 				</Col>
 			</Row>
